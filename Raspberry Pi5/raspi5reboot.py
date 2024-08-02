@@ -7,9 +7,9 @@ import paramiko
 import getpass
 
 # Configuration
-hostname = '192.168.68.74'  # Replace with your Raspberry Pi's hostname or IP address
+hostname = 'x.x.x.x'  # Replace with your Raspberry Pi's hostname or IP address
 port = 22                       # Default SSH port
-username = 'cdlowe3'                 # Replace with your Raspberry Pi username
+username = 'username'                 # Replace with your Raspberry Pi username
 password = None                 # If you use key-based authentication, leave this as None
 
 # Prompt for usernmae if not using key-based authentication

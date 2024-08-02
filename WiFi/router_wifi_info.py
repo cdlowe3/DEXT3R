@@ -31,7 +31,7 @@ def extract_wifi_info(data):
         print("-" * 40)
 
 def main():
-    router_url = 'http://192.168.1.1/api/wifi'  # Replace with your router's API URL
+    router_url = 'http://x.x.x.x/api/wifi'  # Replace with your router's API URL
     username = 'admin'  # Replace with your router's username
     password = 'admin'  # Replace with your router's password
 

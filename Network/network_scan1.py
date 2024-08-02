@@ -46,7 +46,7 @@ def check_services(nm, hosts):
             print(f"Error checking services on {host}: {e}")
 
 def main():
-    network_range = '192.168.1.0/24'  # Replace with your local network range
+    network_range = 'x.x.x.x/24'  # Replace with your local network range
     nm = scan_network(network_range)
     hosts = nm.all_hosts()
     if hosts:

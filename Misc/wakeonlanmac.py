@@ -18,7 +18,7 @@ def send_magic_packet(mac_address, broadcast_ip='255.255.255.255', port=9):
 
 if __name__ == "__main__":
     # Replace with the MAC address of the target machine
-    target_mac = '14:98:77:87:68:cf'
+    target_mac = 'xx:xx:xx:xx:xx:xx'
     
     # Optionally, you can specify a different broadcast IP or port
     send_magic_packet(target_mac)

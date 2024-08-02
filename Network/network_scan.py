@@ -46,7 +46,7 @@ def print_devices(devices):
 
 if __name__ == '__main__':
     # Define the network range to scan (e.g., 192.168.68.0/24)
-    network_range = '192.168.68.0/24'
+    network_range = 'x.x.x.x/24'
     network = ipaddress.ip_network(network_range)
     
     print(f"Scanning network range: {network_range}")

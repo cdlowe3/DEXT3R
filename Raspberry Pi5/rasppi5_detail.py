@@ -2,10 +2,10 @@ import paramiko
 import re
 
 # Configuration for SSH connection
-HOST = '192.168.68.74'  # Replace with your Raspberry Pi's hostname or IP address
+HOST = 'x.x.x.x'  # Replace with your Raspberry Pi's hostname or IP address
 PORT = 22
-USERNAME = 'cdlowe3'  # Replace with your Raspberry Pi's username
-PASSWORD = 'cosadmin'  # Replace with your Raspberry Pi's password
+USERNAME = 'username'  # Replace with your Raspberry Pi's username
+PASSWORD = 'password'  # Replace with your Raspberry Pi's password
 
 def execute_command(ssh_client, command):
     """

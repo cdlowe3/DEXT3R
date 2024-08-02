@@ -53,7 +53,7 @@ def is_apple_device(mac_address):
     return any(prefix.startswith(apple_prefix) for apple_prefix in APPLE_MAC_PREFIXES)
 
 def main():
-    network_prefix = "192.168.0.0/24"  # Replace with your local network range
+    network_prefix = "x.x.0.0/24"  # Replace with your local network range
     print("Scanning network for live hosts...")
     live_hosts = ping_sweep(network_prefix)
 

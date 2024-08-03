@@ -5,8 +5,8 @@ def create_bourbon_collection():
   bourbons = [
     {'name': 'Pappy Van Winkle 23 Year', 'distillery': 'Willett Distillery', 'age': 23, 'proof': 114.2, 'price': 300, 'rating': 5, 'notes': 'Complex, rich, caramel'},
     # Add more bourbons here
-  ]
-  return bourbons
+  
+# return bourbons
 
 def save_to_excel(bourbons, filename='bourbon_collection.xlsx'):
   """Saves the bourbon collection to an Excel file."""
